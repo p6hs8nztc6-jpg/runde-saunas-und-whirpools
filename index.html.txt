@@ -1,0 +1,45 @@
+index.html
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pirtys ir Kubilai</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-stone-50">
+
+  <div class="max-w-7xl mx-auto px-6 py-12 text-center">
+    <h1 class="text-5xl font-bold mb-8">Pirtys ir Kubilai</h1>
+    <p class="text-2xl mb-12">Aukščiausios kokybės mediniai kubilai ir pirtys</p>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a9c" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold">Ąžuolinis Kubilas 180cm</h3>
+          <p class="text-emerald-600 text-3xl font-bold mt-4">2890 €</p>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1560185893-9c5a6a5c3b7e" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold">Maumedžio Kubilas</h3>
+          <p class="text-emerald-600 text-3xl font-bold mt-4">3590 €</p>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1596394516092-2f2c8f2e3e8c" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold">Lauko Pirtis 4 asm.</h3>
+          <p class="text-emerald-600 text-3xl font-bold mt-4">4890 €</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
